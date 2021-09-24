@@ -33,7 +33,7 @@ namespace Parcial1
             a = Convert.ToString(textBox1.Text);
             char[] b = a.ToCharArray();
             Array.Reverse(b);
-            textBox1.Text = Convert.ToString(b);
+            textBox2.Text = b.ToString();
         }
 
         private void button2_Click(object sender, EventArgs e)
