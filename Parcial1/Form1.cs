@@ -42,5 +42,10 @@ namespace Parcial1
             ModuloII Modulo2 = new ModuloII();
             Modulo2.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
