@@ -72,6 +72,12 @@
     <Compile Include="ModuloIIIcs.Designer.cs">
       <DependentUpon>ModuloIIIcs.cs</DependentUpon>
     </Compile>
+    <Compile Include="ModuloIV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloIV.Designer.cs">
+      <DependentUpon>ModuloIV.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -85,6 +91,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ModuloIIIcs.resx">
       <DependentUpon>ModuloIIIcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloIV.resx">
+      <DependentUpon>ModuloIV.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
