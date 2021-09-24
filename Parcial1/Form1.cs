@@ -36,5 +36,11 @@ namespace Parcial1
             Menu Modulo1 = new Menu();
             Modulo1.Show();
         }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            ModuloII Modulo2 = new ModuloII();
+            Modulo2.Show();
+        }
     }
 }

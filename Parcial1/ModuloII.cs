@@ -41,8 +41,8 @@ namespace Parcial1
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Application.Exit();
-            
+            this.Close();
+
         }
 
         private void button1_Click(object sender, EventArgs e)
